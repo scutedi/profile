@@ -1,4 +1,15 @@
 import "./App.css";
+import cssImg from './img/css.png'
+import javaImg from './img/java-logo.png'
+import microchipImg from './img/microchip.png'
+import networkImg from './img/network.png'
+import cppImg from './img/c++.png'
+import pythonImg from './img/python.png'
+import binaryCodeImg from './img/binary-code.png'
+import codeImg from './img/code.png'
+import databaseImg from './img/data_base.png'
+import profile from './img/profile.jpeg'
+import cv from './cv/Edward-Constantin_Scutariu_Resume.pdf'
 
 const projects = [
     {
@@ -40,15 +51,15 @@ function App() {
     return (
         <div className="site-shell">
             <div className="background-pattern" aria-hidden="true">
-                <img className="bg-img img1" src="/img/css.png" alt="" />
-                <img className="bg-img img2" src="/img/java-logo.png" alt="" />
-                <img className="bg-img img3" src="/img/microchip.png" alt="" />
-                <img className="bg-img img4" src="/img/network.png" alt="" />
-                <img className="bg-img img5" src="/img/c++.png" alt="" />
-                <img className="bg-img img6" src="/img/python.png" alt="" />
-                <img className="bg-img img7" src="/img/binary-code.png" alt="" />
-                <img className="bg-img img8" src="/img/code.png" alt="" />
-                <img className="bg-img img9" src="/img/data_base.png" alt="" />
+                <img className="bg-img img1" src={cssImg} alt="" />
+                <img className="bg-img img2" src={javaImg} alt="" />
+                <img className="bg-img img3" src={microchipImg} alt="" />
+                <img className="bg-img img4" src={networkImg} alt="" />
+                <img className="bg-img img5" src={cppImg} alt="" />
+                <img className="bg-img img6" src={pythonImg} alt="" />
+                <img className="bg-img img7" src={binaryCodeImg} alt="" />
+                <img className="bg-img img8" src={codeImg} alt="" />
+                <img className="bg-img img9" src={databaseImg} alt="" />
             </div>
             <div className="background-lines" aria-hidden="true" />
             <div className="top-accent" />
@@ -65,7 +76,7 @@ function App() {
             <main>
                 <section className="hero" id="home">
                     <div className="avatar">
-                        <img src="img/profile.jpeg" alt="Edward-Constantin Scutariu" />
+                        <img src={profile} alt="Edward-Constantin Scutariu" />
                     </div>
                     <h1>
                         Building software and
@@ -81,7 +92,7 @@ function App() {
                     </p>
                     <div className="hero-actions">
                         <a className="button button-light" href="mailto:scutedi@gmail.com">Get In Touch</a>
-                        <a className="button button-outline" href="cv/Edward-Constantin_Scutariu_Resume.pdf" download>Download CV</a>
+                        <a className="button button-outline" href={cv} download>Download CV</a>
                     </div>
 
                     <div className="stack">
