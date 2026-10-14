@@ -18,21 +18,21 @@ const projects = [
     {
         title: "RUBLUT",
         label: "RUBLUT",
-        image: {cub_rubik},
+        image: cub_rubik,
         type: "HTML",
         link: "https://github.com/scutedi/cubrubikFE"
     },
     {
         title: "Pathfinding Visualizer",
         label: "Pathfinding Visualizer",
-        image: {pathfinding_visualizer},
+        image: pathfinding_visualizer,
         type: "CSS",
         link: "https://github.com/scutedi/Pathfinding-Visualizer"
     },
     {
         title: "TrackForUBB",
         label: "TrackForUBB",
-        image: {trackforubb},
+        image: trackforubb,
         type: "CSS",
         link: "https://github.com/scutedi/Proiect_Colectiv"
     },
