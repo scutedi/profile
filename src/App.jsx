@@ -104,7 +104,7 @@ function App() {
                             <span className="tech-square">C++</span>
                             <span className="tech-circle">J</span>
                             <span className="tech-shield">Py</span>
-                            <span className="react-mark">⚛</span>
+                            <span className="react-mark">⚛&#FE0E;</span>
                         </div>
                     </div>
                 </section>
