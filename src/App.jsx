@@ -10,26 +10,29 @@ import codeImg from './img/code.png'
 import databaseImg from './img/data_base.png'
 import profile from './img/profile.jpeg'
 import cv from './cv/Edward-Constantin_Scutariu_Resume.pdf'
+import cub_rubik from './img/cub_rubik.png'
+import pathfinding_visualizer from './img/pathfinding-visualizer.png'
+import trackforubb from './img/trackforubb.png'
 
 const projects = [
     {
         title: "RUBLUT",
         label: "RUBLUT",
-        image: "img/cub_rubik.png",
+        image: {cub_rubik},
         type: "HTML",
         link: "https://github.com/scutedi/cubrubikFE"
     },
     {
         title: "Pathfinding Visualizer",
         label: "Pathfinding Visualizer",
-        image: "img/pathfinding-visualizer.png",
+        image: {pathfinding_visualizer},
         type: "CSS",
         link: "https://github.com/scutedi/Pathfinding-Visualizer"
     },
     {
         title: "TrackForUBB",
         label: "TrackForUBB",
-        image: "img/trackforubb.png",
+        image: {trackforubb},
         type: "CSS",
         link: "https://github.com/scutedi/Proiect_Colectiv"
     },
